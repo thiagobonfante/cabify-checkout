@@ -1,6 +1,6 @@
 # Solution to Cabify Mobile Challenge
 
-This is my lib solutiont to [Ruby Challenge](https://github.com/cabify/rubyChallenge).
+This is my lib solution to [Ruby Challenge](https://github.com/cabify/rubyChallenge).
 
 ## Considerations
 
