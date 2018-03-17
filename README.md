@@ -38,13 +38,13 @@ The Discount class has the attribute ```code``` that is necessary for any discou
 
 ### DiscountFreeOffer < Discount
 
-The DiscountFreeOffer class constructor offers that is possible to point out the ```code``` of product that will be part of this rule, the purchase ```quantity``` that validate the rule and the ```discount_value``` to be deduced from the orginal Product price thru its only method: **apply**:
+The DiscountFreeOffer class constructor offers that is possible to point out the ```code``` of product that will be part of this rule, the purchase ```quantity``` that validate the rule and the ```discount_value``` to be deduced from the orginal Product price thru its only method:
 
 * ```apply``` receives a list of Products and checks it code to apply the discount.
 
 ### DiscountBulkPurchase < Discount
 
-The DiscountBulkPurchase class constructor offers that is possible to point out the ```code``` of product who'll be part of this rule and ```matching_count``` that will be applied when it's going to be free thru its only method: **apply**:
+The DiscountBulkPurchase class constructor offers that is possible to point out the ```code``` of product who'll be part of this rule and ```matching_count``` that will be applied when it's going to be free thru its only method:
 
 * ```apply``` receives a list of Products and checks it code to apply the discount.
 
