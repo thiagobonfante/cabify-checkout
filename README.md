@@ -50,7 +50,7 @@ The DiscountBulkPurchase class constructor offers that is possible to point out 
 
 ### Checkout
 
-This Ckeckout class follows the example interface where the constructor receives the ```pricing_rules``` and has the following methods:
+This Checkout class follows the example interface where the constructor receives the ```pricing_rules``` and has the following methods:
 
 * ```scan``` receives the Product **code**
   - when the Product is found adds the Product to a public var **cart** and return **true**
