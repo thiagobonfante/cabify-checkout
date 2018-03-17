@@ -30,7 +30,7 @@ The Product class has three attributes:
 
 The Inventory class stores a hash of predefined products. It is a Singleton class because it won't change since the store has only 3 products and it has one method:
 
-* ```find``` returns a Product from the Invetory.
+* ```find``` returns a Product from the Inventory.
 
 ### Discount (SuperClass)
 
