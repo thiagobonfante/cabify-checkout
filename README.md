@@ -26,7 +26,7 @@ The Product class has three attributes:
 * name
 * price
 
-### Iventory
+### Inventory
 
 The Inventory class stores a hash of predefined products. It is a Singleton class because it won't change since the store has only 3 products and it has one method:
 
