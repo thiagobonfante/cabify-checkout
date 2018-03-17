@@ -18,6 +18,12 @@ In order to sustain the minimal requisites and the fact that I don't know the ar
 * Checkout could be more detailed with methods the describe more often functionalities of as it is
 * Discount could be implemented using Behaviour Driven tool like [RSpec](http://rspec.info/) to turn those rules more flexible and dynamic
 
+### Iventory
+
+The Inventory class stores a hash of predefined products. It is a Singleton class because it won't change since the store has only 3 products and it has one method:
+
+* ```find``` returns a Product from the Invetory.
+
 ### Product
 
 The Product class has three attributes:
@@ -25,12 +31,6 @@ The Product class has three attributes:
 * code
 * name
 * price
-
-### Iventory
-
-The Inventory class stores a hash of predefined products. It is a Singleton class because it won't change since the store has only 3 products and it has one method:
-
-* ```find``` returns a Product from the Invetory.
 
 ### Discount (SuperClass)
 
